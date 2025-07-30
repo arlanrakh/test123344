@@ -1,0 +1,22 @@
+name: translator_app
+description: A Russian-English translator app using Cactus framework
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cactus: ^0.1.0
+  cupertino_icons: ^1.0.6
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
